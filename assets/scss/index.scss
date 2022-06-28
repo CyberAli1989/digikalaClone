@@ -1,0 +1,213 @@
+@import '../../node_modules/vazir-font/dist/Farsi-Digits/font-face-FD.css';
+@import '--reset.scss';
+
+@mixin absolute-center {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.container {
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto ;
+}
+.hr{
+    width: 95vw;
+    height: 1px;
+    margin: 10px auto;
+    background-color: lighten($color: #ccc, $amount: 12);
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Mobile Design
+@media (max-width: 767px) {
+    header#mobile-header {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        margin: auto;
+      
+        #head-add {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 30px;
+                object-fit: cover;
+            }
+        }
+
+        #head1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 15px;
+            // border-bottom: 1px solid #000;
+            .menu-icons {
+                .dropdown {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                label {
+                    cursor: pointer;
+                }
+
+                input[type=checkbox]+label {
+                    .icon-bar {
+                        display: block;
+                        width: 22px;
+                        height: 2px;
+                        background-color: #000;
+                        margin: 4px;
+                        transition: all 0.2s;
+                    }
+
+                    .top-bar {
+                        transform: rotate(0);
+                    }
+
+                    .middle-bar {
+                        opacity: 1;
+                    }
+                }
+
+                input[type=checkbox]:checked+label {
+                    .top-bar {
+                        transform: rotate(45deg);
+                        transform-origin: 10% 10%;
+                    }
+
+                    .middle-bar {
+                        opacity: 0;
+                    }
+
+                    .bottom-bar {
+                        transform: rotate(-45deg);
+                        transform-origin: 10% 90%;
+                    }
+                }
+            }
+            .logo{
+                text-align: center;
+                width: 90px;
+                img{
+                    width: 100%;
+                }
+            }
+            .backup{
+                border: 2px solid #000;
+                border-radius: 6px;
+                display: inline-block;
+                padding: 4px;
+            }
+        }
+        #head2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 15px;
+            .search-box{
+                flex-basis: 70%;
+                width: 100%;
+                position: relative;
+                i{
+                    position: absolute;
+                    top: 12px;
+                    right: 8px;
+                }
+                input{
+                    display: inline;
+                    width: 90%;
+                    height: 40px;
+                    background-color: #f0f0f1;
+                    border: none;
+                    outline: none;
+                    padding: 0 30px ;
+                    border-radius: 15px;
+                }
+            }  
+            .login{
+                padding: 0 15px;
+                a{
+                    display: flex;
+                    font-size: 14px;
+                    i{
+                        margin:0 5px;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .checkout{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        #head3{
+            margin: 10px 15px;
+            a{
+                width: 100%;
+            }
+            p{
+                display: inline-block;
+                font-size: 14px;
+                i {
+                    float: right;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+            i{
+                float: left;
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+        #mobile-menu{
+            position: fixed;
+            overflow: scroll;
+            z-index: 99;
+            top: 0;
+            bottom: 0;
+            background-color: #fff;
+            width: 80%;
+            ul {
+                list-style: none;
+                li{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

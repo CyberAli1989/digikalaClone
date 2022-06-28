@@ -1,0 +1,16 @@
+{
+  "name": "digikalaClone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CyberAli1989/digikalaClone.git",
+  "author": "CyberAli1989 <naserianali@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server",
+    "sass": "sass --watch assets/scss/index.scss assets/css/index.css"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.2",
+    "vazir-font": "^30.1.0"
+  }
+}

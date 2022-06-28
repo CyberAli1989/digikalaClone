@@ -1,0 +1,315 @@
+@import '../../node_modules/vazir-font/dist/Farsi-Digits/font-face-FD.css';
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Vazir FD;
+  direction: rtl;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hr {
+  width: 95vw;
+  height: 1px;
+  margin: 10px auto;
+  background-color: #ebebeb;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  header#mobile-header {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: auto;
+  }
+  header#mobile-header #head-add {
+    width: 100%;
+  }
+  header#mobile-header #head-add img {
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+  }
+  header#mobile-header #head1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+  }
+  header#mobile-header #head1 .menu-icons .dropdown {
+    display: flex;
+    justify-content: space-between;
+  }
+  header#mobile-header #head1 .menu-icons label {
+    cursor: pointer;
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox] + label .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #000;
+    margin: 4px;
+    transition: all 0.2s;
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox] + label .top-bar {
+    transform: rotate(0);
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox] + label .middle-bar {
+    opacity: 1;
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox]:checked + label .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox]:checked + label .middle-bar {
+    opacity: 0;
+  }
+  header#mobile-header #head1 .menu-icons input[type=checkbox]:checked + label .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  header#mobile-header #head1 .logo {
+    text-align: center;
+    width: 90px;
+  }
+  header#mobile-header #head1 .logo img {
+    width: 100%;
+  }
+  header#mobile-header #head1 .backup {
+    border: 2px solid #000;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 4px;
+  }
+  header#mobile-header #head2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+  }
+  header#mobile-header #head2 .search-box {
+    flex-basis: 70%;
+    width: 100%;
+    position: relative;
+  }
+  header#mobile-header #head2 .search-box i {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+  }
+  header#mobile-header #head2 .search-box input {
+    display: inline;
+    width: 90%;
+    height: 40px;
+    background-color: #f0f0f1;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    border-radius: 15px;
+  }
+  header#mobile-header #head2 .login {
+    padding: 0 15px;
+  }
+  header#mobile-header #head2 .login a {
+    display: flex;
+    font-size: 14px;
+  }
+  header#mobile-header #head2 .login a i {
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  header#mobile-header #head2 .checkout {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  header#mobile-header #head3 {
+    margin: 10px 15px;
+  }
+  header#mobile-header #head3 a {
+    width: 100%;
+  }
+  header#mobile-header #head3 p {
+    display: inline-block;
+    font-size: 14px;
+  }
+  header#mobile-header #head3 p i {
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  header#mobile-header #head3 i {
+    float: left;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  header#mobile-header #mobile-menu {
+    position: fixed;
+    overflow: scroll;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 80%;
+  }
+  header#mobile-header #mobile-menu ul {
+    list-style: none;
+  }
+  header#mobile-header #mobile-menu ul li {
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
