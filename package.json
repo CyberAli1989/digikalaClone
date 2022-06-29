@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "boxicons": "^2.1.2",
+    "jquery": "^3.6.0",
     "vazir-font": "^30.1.0"
   }
 }

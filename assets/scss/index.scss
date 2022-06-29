@@ -1,6 +1,6 @@
 @import '../../node_modules/vazir-font/dist/Farsi-Digits/font-face-FD.css';
 @import '--reset.scss';
-
+@import '--animation.scss';
 @mixin absolute-center {
     position: absolute;
     display: block;
@@ -11,18 +11,32 @@
     margin: auto;
 }
 
+.enter-r {
+    -webkit-animation: slide-in-fwd-right 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-right 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.exit-r {
+    -webkit-animation: slide-out-bck-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-bck-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+
 .container {
     width: 90vw;
     height: 100%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
-.hr{
+
+.hr {
     width: 95vw;
     height: 1px;
     margin: 10px auto;
     background-color: lighten($color: #ccc, $amount: 12);
 }
-.blur{
+
+.blur {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -52,7 +66,7 @@
         height: 100%;
         background-color: #fff;
         margin: auto;
-      
+
         #head-add {
             width: 100%;
 
@@ -70,6 +84,7 @@
             justify-content: space-between;
             align-items: center;
             margin: 10px 15px;
+
             // border-bottom: 1px solid #000;
             .menu-icons {
                 .dropdown {
@@ -100,101 +115,118 @@
                     }
                 }
 
-                input[type=checkbox]:checked+label {
-                    .top-bar {
-                        transform: rotate(45deg);
-                        transform-origin: 10% 10%;
-                    }
+                // input[type=checkbox]:checked+label {
+                //     .top-bar {
+                //         transform: rotate(45deg);
+                //         transform-origin: 10% 10%;
+                //     }
 
-                    .middle-bar {
-                        opacity: 0;
-                    }
+                //     .middle-bar {
+                //         opacity: 0;
+                //     }
 
-                    .bottom-bar {
-                        transform: rotate(-45deg);
-                        transform-origin: 10% 90%;
-                    }
-                }
+                //     .bottom-bar {
+                //         transform: rotate(-45deg);
+                //         transform-origin: 10% 90%;
+                //     }
+                // }
             }
-            .logo{
+
+            .logo {
                 text-align: center;
                 width: 90px;
-                img{
+
+                img {
                     width: 100%;
                 }
             }
-            .backup{
+
+            .backup {
                 border: 2px solid #000;
                 border-radius: 6px;
                 display: inline-block;
                 padding: 4px;
             }
         }
-        #head2{
+
+        #head2 {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
             margin: 10px 15px;
-            .search-box{
+
+            .search-box {
                 flex-basis: 70%;
                 width: 100%;
                 position: relative;
-                i{
+
+                i {
                     position: absolute;
                     top: 12px;
                     right: 8px;
                 }
-                input{
+
+                input {
                     display: inline;
                     width: 90%;
                     height: 40px;
                     background-color: #f0f0f1;
                     border: none;
                     outline: none;
-                    padding: 0 30px ;
+                    padding: 0 30px;
                     border-radius: 15px;
                 }
-            }  
-            .login{
+            }
+
+            .login {
                 padding: 0 15px;
-                a{
+
+                a {
                     display: flex;
                     font-size: 14px;
-                    i{
-                        margin:0 5px;
+
+                    i {
+                        margin: 0 5px;
                         font-size: 20px;
                         font-weight: 600;
                     }
                 }
             }
-            .checkout{
+
+            .checkout {
                 font-size: 20px;
                 font-weight: 600;
             }
         }
-        #head3{
+
+        #head3 {
             margin: 10px 15px;
-            a{
+
+            a {
                 width: 100%;
             }
-            p{
+
+            p {
                 display: inline-block;
                 font-size: 14px;
+
                 i {
                     float: right;
                     font-weight: 600;
                     font-size: 14px;
                 }
             }
-            i{
+
+            i {
                 float: left;
                 font-weight: 600;
                 font-size: 20px;
             }
         }
-        #mobile-menu{
+
+        #mobile-menu {
             position: fixed;
             overflow: scroll;
             z-index: 99;
@@ -202,9 +234,11 @@
             bottom: 0;
             background-color: #fff;
             width: 80%;
+
             ul {
                 list-style: none;
-                li{
+
+                li {
                     padding: 10px;
                 }
             }

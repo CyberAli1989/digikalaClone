@@ -1,0 +1,27 @@
+@keyframes slide-in-fwd-right {
+    0% {
+        -webkit-transform: translateZ(-1400px) translateX(1000px);
+        transform: translateZ(-1400px) translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateX(0);
+        transform: translateZ(0) translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-out-bck-right {
+    0% {
+        -webkit-transform: translateZ(0) translateX(0);
+        transform: translateZ(0) translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateZ(-1100px) translateX(1000px);
+        transform: translateZ(-1100px) translateX(1000px);
+        opacity: 0;
+    }
+}
