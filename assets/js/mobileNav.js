@@ -8,7 +8,6 @@ $(function () {
             e.preventDefault();
             $('#mobile-menu').addClass('exit-r').removeClass('enter-r').show()
             $('.blur').hide()
-            
         });
     });
 });

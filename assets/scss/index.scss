@@ -1,6 +1,7 @@
 @import '../../node_modules/vazir-font/dist/Farsi-Digits/font-face-FD.css';
 @import '--reset.scss';
 @import '--animation.scss';
+
 @mixin absolute-center {
     position: absolute;
     display: block;
@@ -23,10 +24,30 @@
 
 }
 
+.exit-t {
+    -webkit-animation: slide-out-bck-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-bck-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+
+.enter-t {
+    -webkit-animation: slide-in-fwd-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
 .container {
     width: 90vw;
     height: 100%;
     margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .hr {
@@ -40,11 +61,254 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: rgba($color: #000000, $alpha: 0.2);
+    background-color: rgba($color: #000000, $alpha: 0.7);
 }
 
+// Desktop Design
+#head-add {
+    width: 100%;
 
+    img {
+        width: 100%;
+    }
+}
 
+header#mobile-header {
+    display: none;
+}
+
+header#main {
+    #main1 {
+        width: 98%;
+        margin: 8px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 100px;
+
+            a {
+                display: inline-block;
+                margin-top: 5px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .search {
+            flex-basis: 70%;
+            width: 300px;
+            justify-self: flex-start;
+            position: relative;
+            height: 44px;
+
+            i {
+                position: absolute;
+                top: 12px;
+                right: 8px;
+            }
+
+            input {
+                display: inline;
+                width: 600px;
+                height: 44px;
+                background-color: #f0f0f1;
+                border: none;
+                outline: none;
+                padding: 0 30px;
+                border-radius: 10px;
+            }
+        }
+
+        .login-btns {
+            font-size: 14px;
+
+            a {
+                // display: block;
+                text-align: center;
+                display: flex;
+                padding: 8px 13px;
+                border: 1px solid #e0e0e2;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 14px;
+
+                // width: 150px;
+                i {
+                    margin-top: -2px;
+                    margin-left: 15px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .checkout {
+            // text-align: right;
+            // direction: ltr;
+            font-size: 22px;
+            display: block;
+            // background-color: #000;
+            width: 40px;
+            border-right: 1px solid #f0f0f1;
+            padding: 8px 18px;
+            cursor: pointer;
+        }
+
+    }
+
+    nav {
+        width: 98% !important;
+        // background: green;
+        margin: 15px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .nav {
+            flex-basis: 100%;
+
+            ul {
+
+                li {
+                    &:first-child {
+                        color: #000 // color: red;
+                    }
+
+                    &:nth-child(2) {
+                        border-right: 1px solid #62666d;
+                    }
+
+                    &:nth-child(5) {
+                        border-left: 1px solid #62666d;
+                    }
+
+                    padding: 5px 10px;
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #62666d;
+
+                }
+            }
+
+        }
+
+        .location {
+            padding: 5px 10px;
+            text-align: left;
+            flex-basis: 48%;
+            cursor: pointer;
+        }
+
+    }
+    .active{
+        background-color: #ccc;
+    }
+    .subMenu {
+
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+
+        .grid2 {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .menu-title {
+                flex-basis: 20%;
+
+                ul {
+                    list-style: none;
+                }
+            }
+
+            .menu-items {
+                flex-basis: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .gird4 {
+                   display: grid;
+                   grid-template-columns: repeat(4,1fr);
+                }
+            }
+        }
+
+    }
+
+}
+
+.location-modal {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 300px;
+    width: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+    padding: 15px;
+
+    .bx-x {
+        cursor: pointer;
+        // position: absolute;
+    }
+
+    .auto-loc {
+        color: #19bfd3;
+        font-size: 14px;
+        font-weight: 600;
+
+        i {
+            display: block;
+            float: right;
+            margin: 0 15px;
+        }
+    }
+
+    .modal-head {
+        margin: 10px auto;
+        position: sticky;
+        top: 10px;
+        background-color: #fff;
+
+        p {
+            width: 390px;
+            margin: 0 auto;
+        }
+    }
+
+    .hr {
+        margin: 15px 0;
+    }
+
+    a {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+        // margin: 0 15px;
+        padding: 15px 0;
+    }
+
+    p {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    i {
+        float: left;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+}
 
 
 
@@ -61,21 +325,27 @@
 
 // Mobile Design
 @media (max-width: 767px) {
+    header#main {
+        display: none;
+    }
+
+    #head-add {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 30px;
+            object-fit: cover;
+        }
+    }
+
     header#mobile-header {
         width: 100%;
         height: 100%;
         background-color: #fff;
         margin: auto;
+        display: block;
 
-        #head-add {
-            width: 100%;
-
-            img {
-                width: 100%;
-                height: 30px;
-                object-fit: cover;
-            }
-        }
 
         #head1 {
             display: flex;
@@ -235,13 +505,114 @@
             background-color: #fff;
             width: 80%;
 
+            details ul {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                background-color: #ccc !important;
+                box-sizing: border-box;
+
+            }
+
+            // .silver{
+            //     background-color: #ccc;
+            // }
             ul {
                 list-style: none;
 
+                .logo {
+                    width: 80px;
+                    margin-top: 8px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .nav-all {
+                    font-size: 12px;
+                    margin-top: 5px;
+                    color: rgba($color: #000000, $alpha: 0.5);
+                }
+
+                i {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
                 li {
                     padding: 10px;
+                    font-size: 14px;
+                    display: block;
                 }
             }
         }
+    }
+
+    .location-modal {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0 auto;
+        position: fixed;
+        height: 100%;
+        width: 90%;
+        border-radius: none;
+        overflow-y: scroll;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .bx-x {
+            cursor: pointer;
+        }
+
+        .auto-loc {
+            color: #19bfd3;
+            font-size: 14px;
+            font-weight: 600;
+
+            i {
+                display: block;
+                float: right;
+                margin: 0 15px;
+            }
+        }
+
+        .modal-head {
+            margin: 10px auto;
+            position: sticky;
+            top: 10px;
+            background-color: #fff;
+
+            p {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+
+        .hr {
+            margin: 15px 0;
+        }
+
+        a {
+            width: 95%;
+            margin: 0 auto;
+            display: block;
+            // margin: 0 15px;
+            padding: 15px 0;
+        }
+
+        p {
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        i {
+            float: left;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
     }
 }

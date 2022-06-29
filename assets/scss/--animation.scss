@@ -25,3 +25,31 @@
         opacity: 0;
     }
 }
+
+@keyframes slide-out-bck-top {
+    0% {
+        -webkit-transform: translateZ(1) translateY(0);
+        transform: translateZ(1) translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateZ(-1100px) translateY(-1000px);
+        transform: translateZ(-1100px) translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-in-fwd-top {
+    0% {
+        -webkit-transform: translateZ(-1400px) translateY(-800px);
+        transform: translateZ(-1400px) translateY(-800px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
