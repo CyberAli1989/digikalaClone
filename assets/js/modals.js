@@ -1,20 +1,20 @@
 $(function () {
-    $('.location-modal').hide()
+    $('.center').hide()
     $('#location').click(function (e) { 
         e.preventDefault();
-        $('.location-modal').addClass('enter-t').removeClass('exit-t').show()
+        $('.center').addClass('enter-t').removeClass('exit-t').show()
         
     });
     $('.bx-x').click(function (e) { 
         e.preventDefault();
-        $('.location-modal').addClass('exit-t').removeClass('enter-t').hide('1000');
+        $('.center').addClass('exit-t').removeClass('enter-t').hide('1000');
         $('.blur').hide()
 
     });
     $('.location').click(function (e) { 
         e.preventDefault();
-        $('.location-modal').addClass('enter-t').removeClass('exit-t').show();
-        $('.blur').show();
+        $('.center').css('z-index', '100').addClass('enter-t').removeClass('exit-t').show();
+        $('.blur').css('z-index', '100').show();
     });
    
 });

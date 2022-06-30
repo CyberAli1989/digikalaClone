@@ -218,11 +218,9 @@ a {
 }
 
 .center {
-  display: flex;
-  width: 100%;
-  height: 50vh;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  bottom: calc(50% - 160px);
+  right: calc(50% - 210px);
 }
 
 .hr {
@@ -250,6 +248,11 @@ header#mobile-header {
   display: none;
 }
 
+header#main {
+  position: relative;
+  z-index: 99;
+  background-color: #fff;
+}
 header#main #main1 {
   width: 98%;
   margin: 8px auto;
@@ -348,35 +351,69 @@ header#main nav .location {
   cursor: pointer;
 }
 header#main .active {
-  background-color: #ccc;
+  background-color: #62666d;
+  color: red;
 }
-header#main .subMenu {
+
+.subMenu {
+  position: absolute;
+  z-index: 99;
   height: 100%;
-  width: 90%;
+  width: 95%;
+  right: 35px;
   margin: 0 auto;
+  background-color: #fff;
 }
-header#main .subMenu .grid2 {
+.subMenu .grid2 {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
-header#main .subMenu .grid2 .menu-title {
+.subMenu .grid2 .menu-title {
   flex-basis: 20%;
 }
-header#main .subMenu .grid2 .menu-title ul {
+.subMenu .grid2 .menu-title ul {
   list-style: none;
+  border-left: 1px solid #f0f0f0;
 }
-header#main .subMenu .grid2 .menu-items {
+.subMenu .grid2 .menu-title ul li {
+  padding: 12px;
+}
+.subMenu .grid2 .menu-title ul li:hover {
+  background-color: #f0f0f1;
+}
+.subMenu .grid2 .menu-items {
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
 }
-header#main .subMenu .grid2 .menu-items .gird4 {
+.subMenu .grid2 .menu-items ul .sub-title {
+  color: #000;
+}
+.subMenu .grid2 .menu-items ul li {
+  padding: 7px;
+  font-size: 14px;
+  color: #62666d;
+}
+.subMenu .grid2 .menu-items a {
+  grid-area: A;
+}
+.subMenu .grid2 .menu-items a h2 {
+  font-size: 14px;
+  color: #62666d;
+  margin: 15px 5px;
+}
+.subMenu .grid2 .menu-items #menu1 {
   display: grid;
+}
+.subMenu .grid2 .menu-items .gird4 {
+  display: none;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "A A A A " ". . . .";
 }
 
 .location-modal {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -433,6 +470,13 @@ header#main .subMenu .grid2 .menu-items .gird4 {
 @media (max-width: 767px) {
   header#main {
     display: none;
+  }
+
+  .center {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
   }
 
   #head-add {
