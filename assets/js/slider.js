@@ -3,18 +3,44 @@ $(document).ready(function () {
         rtl: true,
         loop: true,
         nav: true,
-        items:1,
+        items: 1,
         animateOut: 'fadeOut',
-        autoplay:true,
-        autoplayTimeout:3000,
+        autoplay: true,
+        autoplayTimeout: 3000,
     });
     $('.owl-theme .owl-nav button').hide()
-    $('.owl-carousel').mouseenter(function () { 
+    $('.slider .owl-carousel').mouseenter(function () {
         $('.owl-theme .owl-nav button').show(150)
-        
+
     });
-    $('.owl-carousel').mouseleave(function () { 
+    $('.slider .owl-carousel').mouseleave(function () {
         $('.owl-theme .owl-nav button').hide(150)
-        
+
+    });
+
+
+    $('.hot-suggest .owl-carousel').owlCarousel({
+        rtl: true,
+        loop: false,
+        nav: false,
+        items: 7,
+        animateOut: 'fadeOut',
+        autoplay: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3,
+                startPosition: 0,
+                margin: 5,
+                // center: true,
+
+            },
+            767: {
+                item: 7,
+                margin: 5,
+
+            }
+
+        }
     });
 });
