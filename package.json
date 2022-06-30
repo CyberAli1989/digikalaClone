@@ -12,6 +12,7 @@
   "dependencies": {
     "boxicons": "^2.1.2",
     "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4",
     "vazir-font": "^30.1.0"
   }
 }
