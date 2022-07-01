@@ -71,5 +71,19 @@ $(document).ready(function () {
                 items:6,
             },
         },
-    })
+    });
+    $('#suggestion2 .owl-carousel').owlCarousel({
+        rtl:true,
+        loop:false,
+        dots:false,
+        merge:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            800:{
+                items:4,
+            },
+        },
+    });
 });

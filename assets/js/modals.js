@@ -25,5 +25,8 @@ $(function () {
         $('.blur').css('z-index', '100').show();
         
     });
-   
+    $("#GoTop").click(function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 1000);
+     });
 });
