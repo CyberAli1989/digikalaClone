@@ -43,4 +43,33 @@ $(document).ready(function () {
 
         }
     });
+
+    $('#suggestion .owl-carousel').owlCarousel({
+        rtl:true,
+        loop:false,
+        dots:false,
+        merge:true,
+        responsive:{
+            0:{
+                items:3,
+            },
+            800:{
+                items:6,
+            },
+        },
+    })
+    $('#favorite .owl-carousel').owlCarousel({
+        rtl:true,
+        loop:false,
+        dots:false,
+        merge:true,
+        responsive:{
+            0:{
+                items:3,
+            },
+            800:{
+                items:6,
+            },
+        },
+    })
 });
