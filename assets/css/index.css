@@ -1507,6 +1507,19 @@ footer .footerLogo .items img {
   width: 90px;
 }
 
+#support {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  background-color: #ef394e;
+  border-radius: 50%;
+}
+#support .supp {
+  padding: 8px;
+  font-size: 30px;
+  color: #fff;
+}
+
 @media (max-width: 767px) {
   header#main {
     display: none;

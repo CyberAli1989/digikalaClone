@@ -1,0 +1,121 @@
+@import '--animation.scss';
+@import '--reset.scss';
+
+
+
+#login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .center{
+        border: 1px solid #e5e5e5;
+        padding: 25px;
+        border-radius: 10px;
+        h1{
+            margin-top: 25px;
+            font-size: 40px;
+            color: #ef4056;
+            font-weight: 800;
+            justify-self: flex-start;
+            text-align: center;
+        }
+        h3{
+            margin-top: 25px;
+            font-size: 19px;
+            font-weight: 600;
+        }
+        p{
+            // line-height: 2em;
+            color: #3b4048;
+            margin-top: 15px;
+            font-size: 14px;
+            &#privecy{
+                font-size: 12px;
+                margin-top: 15px;
+                a{
+                    color: #0f94b6;
+                }
+            }
+        }
+    }
+    form{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: fit-content;
+        border-radius: 10px;
+        
+        input[type="text"]{
+            margin: 20px 0;
+            height: 46px ;
+            border-radius: 10px;
+            border: 1px solid #19bfd3;
+            outline: none;
+        }
+        input[type="submit"]{
+            height: 46px;
+            border-radius: 10px;
+            border: none;
+            background-color: #ef4056;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        label{
+            margin-top: -10px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #ef4056;
+            font-weight: 500;
+        }
+
+    }
+}
+
+@media(max-width:767px){
+    #login {
+        .center{
+            border: initial;
+            h3{
+                font-size: 14px ;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 12px;
+                &#privecy{
+                    font-size: 11px !important;
+                }
+            }
+        }
+        
+        form{
+            width: 100%;
+            
+            
+            input[type="text"]{
+                border-radius: 10px;
+                border: none;
+                border-bottom: 1px solid #ef4056;
+                outline: none;
+                background-color: #f0f0f1;
+            }
+            input[type="submit"]{
+                height: 46px;
+                border-radius: 10px;
+                border: none;
+                background-color: #ef4056;
+                color: #fff;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            label{
+                font-size: 12px ;
+            }
+    
+        }
+    }
+}

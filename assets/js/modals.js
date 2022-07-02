@@ -29,4 +29,10 @@ $(function () {
         e.preventDefault();
         $("html, body").animate({scrollTop: 0}, 1000);
      });
+
+
+     $('#support').click(function(e) {
+        $('.supp i').toggleClass('bx bx-support').toggleClass('bx bx-x')
+     })
+    
 });

@@ -1631,7 +1631,18 @@ footer {
         }
     }
 }
-
+#support{
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-color: #ef394e;
+    border-radius: 50%;
+    .supp{
+        padding: 8px;
+        font-size: 30px;
+        color: #fff;
+    }
+}
 
 // Mobile Design
 

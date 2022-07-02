@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "live-server",
-    "sass": "sass --watch assets/scss/index.scss assets/css/index.css"
+    "index": "sass --watch assets/scss/index.scss assets/css/index.css",
+    "login":  "sass --watch assets/scss/login.scss assets/css/login.css"
   },
   "dependencies": {
     "boxicons": "^2.1.2",
