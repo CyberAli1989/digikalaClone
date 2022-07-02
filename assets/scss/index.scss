@@ -54,7 +54,7 @@
 }
 
 .hr {
-    width: 95vw;
+    max-width: 95vw;
     height: 1px;
     margin: 10px auto;
     background-color: lighten($color: #ccc, $amount: 12);
@@ -1643,6 +1643,159 @@ footer {
         color: #fff;
     }
 }
+
+
+// checkout page 
+#checkout{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .container{
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .check-nav{
+        ul {
+            li {
+                padding: 15px;
+                display: inline-block;
+                color: #6c6969;
+                cursor: pointer;
+                &.active{
+                    position: relative;
+                    color: #ef394e;
+                    transition: 300ms;
+                    &::before{
+                        content: "";
+                        transition: 300ms;
+                        position: absolute;
+                        width: 80%;
+                        margin: 0 auto;
+                        height: 3px;
+                        border-radius: 20px;
+                        background-color: #ef394e;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .basket{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        position: relative;
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e5e5e5;
+            height: 100%;
+            width: 70%;
+            margin: 0 15px;
+            border-radius: 15px;
+            .img{
+                width: 150px;
+                height: 150px;
+                // background-color: #ccc;
+                img{
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+            .desc{
+                text-align: center;
+                h2{
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #6c6969;
+                    margin-bottom: 25px;
+                }
+                .link{
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    color: #19bfd3;
+                    a{
+                        &:first-child{
+                            position: relative;
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                height: 25px;
+                                width: 1px;
+                                top: -5px;
+                                left: -40px;
+                                background-color: #19bfd3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .side{
+            left: 0;
+            height: 100%;
+            width: 30%;
+            float: left;
+            border-radius: 15px;
+            .login-into{
+                border: 1px solid #e5e5e5;
+                padding: 15px;
+                border-radius: 15px;
+                .head{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 15px 0;
+                    p{
+                        display: flex;
+                    }
+                    i{
+                        color: #f9a825;
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-left: 10px;
+                    }
+                }
+                .desc{
+                    p{
+                        font-size: 14px;
+                        color: #6c6969;
+                        line-height: 2em;
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Mobile Design
 
