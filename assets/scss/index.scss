@@ -68,6 +68,10 @@
 }
 
 // Desktop Design
+
+
+
+
 #head-add {
     width: 100%;
 
@@ -2040,7 +2044,7 @@ footer {
         position: fixed;
         height: 100%;
         width: 90%;
-        border-radius: none;
+        border-radius: initial;
         overflow-y: scroll;
         top: 0;
         left: 0;
@@ -2261,7 +2265,7 @@ footer {
             margin-top: 35px;
         }
 
-        margin-top: 25px auto;
+        margin-top: 25px;
 
         // background: #000;
         .gird5 {
