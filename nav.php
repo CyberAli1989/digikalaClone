@@ -1,34 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="">
+<script src="assets/js/mobileNav.js"></script>
+<script src="assets/js/desktopnav.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
-    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.green.min.css">
-    <link rel="stylesheet" href="assets/css/index.css">
 
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/boxicons/dist/boxicons.js"></script>
-    <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="assets/js/mobileNav.js"></script>
-    <script src="assets/js/modals.js"></script>
-    <script src="assets/js/desktopnav.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <title>فروشگاه اینترنتی دیجی کالا</title>
-    <link rel="shortcut icon" href="assets/imgs/footerLogo.png" type="image/x-icon">
-
-</head>
-
-<body>
-<div class="blur"></div>
-<div id="head-add">
-    <a href="#">
-        <img src="assets/imgs/head.jpg" alt="add">
-    </a>
-</div>
 <section>
     <header id="mobile-header">
 
@@ -44,7 +17,7 @@
                 </label>
             </div>
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/imgs/logo.svg" alt="">
                 </a>
             </div>
@@ -1074,7 +1047,7 @@
                 <a href="login.html"><i class='bx bx-log-in bx-rotate-180'></i> ورود</a>
             </div>
             <div class="checkout">
-                <a href="checkout.html">
+                <a href="checkout.php">
                     <i class='bx bx-cart-alt bx-flip-horizontal'></i>
                 </a>
             </div>
@@ -1085,8 +1058,8 @@
                 <a href="#" id="location">
                     <p>
                         <i class='bx bx-location-plus'></i>
-                        لطفا شهر خود را انتخاب کنید
-                    </p>
+لطفا شهر خود را انتخاب کنید
+</p>
                     <i class='bx bx-chevron-left'></i>
                 </a>
             </div>
@@ -1097,7 +1070,7 @@
     <header id="main">
         <div id="main1">
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/imgs/logo.svg" alt="Logo">
                 </a>
             </div>
@@ -1108,11 +1081,11 @@
             <div class="login-btns">
                 <a href="login.html">
                     <i class='bx bx-log-in bx-rotate-180'></i>
-                    ورود | ثبت نام
-                </a>
+ورود | ثبت نام
+</a>
             </div>
             <div class="checkout">
-                <a href="checkout.html">
+                <a href="checkout.php">
                     <i class='bx bx-shopping-bag'></i>
                 </a>
             </div>
@@ -1131,8 +1104,8 @@
             </div>
             <div class="location">
                 <i class='bx bx-location-plus'></i>
-                لطفا شهر خود را انتخاب کنید
-            </div>
+لطفا شهر خود را انتخاب کنید
+</div>
         </nav>
         <span class="target"></span>
     </header>
@@ -1522,7 +1495,7 @@
                                                 <li class="sub-title"><a href="#">تبلت ></a></li>
                                                 <li class="sub-title"><a href="#">شارژر تبلت و موبایل ></a></li>
                                                 <li class="sub-title"><a href="#">کیف ٬ کاور ٬ لوازم جانبی تبلت
-                                                    ></a></li>
+></a></li>
                                                 <li class="sub-title"><a href="#">باتری ></a></li>
                                                 <li class="sub-title"><a href="#">دوربین های تحت شبکه ></a></li>
                                                 <li class="sub-title"><a href="#">مودم و تجهیزات شبکه ></a></li>
@@ -1605,7 +1578,7 @@
                                                     <li class="sub-title"><a href="#">تبلت ></a></li>
                                                     <li class="sub-title"><a href="#">شارژر تبلت و موبایل ></a></li>
                                                     <li class="sub-title"><a href="#">کیف ٬ کاور ٬ لوازم جانبی تبلت
-                                                        ></a></li>
+></a></li>
                                                     <li class="sub-title"><a href="#">باتری ></a></li>
                                                     <li class="sub-title"><a href="#">دوربین های تحت شبکه ></a></li>
                                                     <li class="sub-title"><a href="#">مودم و تجهیزات شبکه ></a></li>
@@ -1616,7 +1589,7 @@
                                                     <li><a href="#">لوازم جانبی اداری</a></li>
                                                     <li class="sub-title"><a href="#">کتابخوان فیدیوبوک ></a></li>
                                                     <li class="sub-title"><a href="#">کارت هدیه خرید از دیجی کالا‌
-                                                        ></a></li>
+></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1648,7 +1621,7 @@
                                                 <div class="items item2">
                                                     <ul>
                                                         <li class="sub-title"><a href="#">هدفون ٬ هدست ٬ هندزفری
-                                                            ></a></li>
+></a></li>
                                                         <li class="sub-title"><a href="#">اسپیکر بلوتوث و با سیم >
                                                         </a></li>
                                                         <li class="sub-title"><a href="#">هارد ٬ فلش ssd ></a></li>
@@ -1672,7 +1645,7 @@
                                                         <li class="sub-title"><a href="#">پلی استیشن ٬ ایکس باکس ...
                                                             ></a></li>
                                                         <li class="sub-title"><a href="#">کامپیوتر و لوازم جانبی
-                                                            ></a></li>
+></a></li>
                                                         <li><a href="#">تجهیزات مخصوص بازی</a></li>
                                                         <li><a href="#">مانیتور</a></li>
                                                         <li><a href="#">کیس های اسمبل شده</a></li>
@@ -1733,15 +1706,15 @@
                                                             <li class="sub-title"><a href="#">واقعیت مجازی ></a>
                                                             </li>
                                                             <li class="sub-title"><a href="#">مچ بند و ساعت هوشمند
-                                                                ></a></li>
+></a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="items item2">
                                                         <ul>
                                                             <li class="sub-title"><a href="#">هدفون ٬ هدست ٬ هندزفری
-                                                                ></a></li>
+></a></li>
                                                             <li class="sub-title"><a href="#">اسپیکر بلوتوث و با سیم
-                                                                > </a></li>
+> </a></li>
                                                             <li class="sub-title"><a href="#">هارد ٬ فلش ssd ></a>
                                                             </li>
                                                             <li class="sub-title"><a href="#">دوربین ></a></li>
@@ -1749,7 +1722,7 @@
                                                             <li><a href="#"></a>دوربین ورزشی و فیلم برداری</li>
                                                             <li><a href="#"></a>دوربین چاپ سریع</li>
                                                             <li class="sub-title"><a href="#">لوازم جانبی دوربین‌
-                                                                ></a></li>
+></a></li>
                                                             <li><a href="#">لنز</a></li>
                                                             <li><a href="#">کیف</a></li>
                                                             <li><a href="#">کارت حافظه</a></li>
@@ -1764,7 +1737,7 @@
                                                             <li class="sub-title"><a href="#">پلی استیشن ٬ ایکس باکس
                                                                 ... ></a></li>
                                                             <li class="sub-title"><a href="#">کامپیوتر و لوازم جانبی
-                                                                ></a></li>
+></a></li>
                                                             <li><a href="#">تجهیزات مخصوص بازی</a></li>
                                                             <li><a href="#">مانیتور</a></li>
                                                             <li><a href="#">کیس های اسمبل شده</a></li>
@@ -1782,14 +1755,14 @@
                                                         <ul>
                                                             <li class="sub-title"><a href="#">تبلت ></a></li>
                                                             <li class="sub-title"><a href="#">شارژر تبلت و موبایل
-                                                                ></a></li>
+></a></li>
                                                             <li class="sub-title"><a href="#">کیف ٬ کاور ٬ لوازم
                                                                 جانبی تبلت ></a></li>
                                                             <li class="sub-title"><a href="#">باتری ></a></li>
                                                             <li class="sub-title"><a href="#">دوربین های تحت شبکه
-                                                                ></a></li>
+></a></li>
                                                             <li class="sub-title"><a href="#">مودم و تجهیزات شبکه
-                                                                ></a></li>
+></a></li>
                                                             <li class="sub-title"><a href="#">ماشین های اداری ></a>
                                                             </li>
                                                             <li><a href="#">تلفن بیسیم و سانترال</a></li>
@@ -1797,7 +1770,7 @@
                                                             <li><a href="#">پرینتر</a></li>
                                                             <li><a href="#">لوازم جانبی اداری</a></li>
                                                             <li class="sub-title"><a href="#">کتابخوان فیدیوبوک
-                                                                ></a></li>
+></a></li>
                                                             <li class="sub-title"><a href="#">کارت هدیه خرید از دیجی
                                                                 کالا‌ ></a></li>
                                                         </ul>
@@ -1812,7 +1785,7 @@
                                                         <div class="items item1">
                                                             <ul>
                                                                 <li class="sub-title"><a href="#">لوازم حانبی گوشی
-                                                                    ></a></li>
+></a></li>
                                                                 <li><a href="#">کیف و کاور گوشی</a></li>
                                                                 <li><a href="#">پاوربانک (شارژر همراه)</a></li>
                                                                 <li><a href="#">پایه نگهدارنده گوشی</a></li>
@@ -1837,7 +1810,7 @@
                                                                 <li class="sub-title"><a href="#">اسپیکر بلوتوث و با
                                                                     سیم > </a></li>
                                                                 <li class="sub-title"><a href="#">هارد ٬ فلش ssd
-                                                                    ></a></li>
+></a></li>
                                                                 <li class="sub-title"><a href="#">دوربین ></a></li>
                                                                 <li><a href="#"></a>دوربین عکاسی دیجیتال</li>
                                                                 <li><a href="#"></a>دوربین ورزشی و فیلم برداری</li>
@@ -1885,13 +1858,13 @@
                                                                 <li class="sub-title"><a href="#">مودم و تجهیزات
                                                                     شبکه ></a></li>
                                                                 <li class="sub-title"><a href="#">ماشین های اداری
-                                                                    ></a></li>
+></a></li>
                                                                 <li><a href="#">تلفن بیسیم و سانترال</a></li>
                                                                 <li><a href="#">فکس</a></li>
                                                                 <li><a href="#">پرینتر</a></li>
                                                                 <li><a href="#">لوازم جانبی اداری</a></li>
                                                                 <li class="sub-title"><a href="#">کتابخوان فیدیوبوک
-                                                                    ></a></li>
+></a></li>
                                                                 <li class="sub-title"><a href="#">کارت هدیه خرید از
                                                                     دیجی کالا‌ ></a></li>
                                                             </ul>
@@ -1919,7 +1892,7 @@
                                                                     <li><a href="#">آنر</a></li>
                                                                     <li><a href="#">نوکیا</a></li>
                                                                     <li class="sub-title"><a href="#">واقعیت مجازی
-                                                                        ></a></li>
+></a></li>
                                                                     <li class="sub-title"><a href="#">مچ بند و ساعت
                                                                         هوشمند ></a></li>
                                                                 </ul>
@@ -1931,12 +1904,12 @@
                                                                     <li class="sub-title"><a href="#">اسپیکر بلوتوث
                                                                         و با سیم > </a></li>
                                                                     <li class="sub-title"><a href="#">هارد ٬ فلش ssd
-                                                                        ></a></li>
+></a></li>
                                                                     <li class="sub-title"><a href="#">دوربین ></a>
                                                                     </li>
                                                                     <li><a href="#"></a>دوربین عکاسی دیجیتال</li>
                                                                     <li><a href="#"></a>دوربین ورزشی و فیلم برداری
-                                                                    </li>
+</li>
                                                                     <li><a href="#"></a>دوربین چاپ سریع</li>
                                                                     <li class="sub-title"><a href="#">لوازم جانبی
                                                                         دوربین‌ ></a></li>
@@ -2004,12 +1977,11 @@
                                     </div>
                                 </div>
 </section>
-
 <div class="center">
     <div class="location-modal">
         <div class="modal-head">
             <p>انتخاب شهر
-                <i id="closeModal" class="bx bx-x"></i>
+<i id="closeModal" class="bx bx-x"></i>
             </p>
             <div class="hr"></div>
         </div>
@@ -2017,1803 +1989,80 @@
             <a href="#" class="auto-locate">
 
                 <i class='bx bx-current-location'></i>
-                مکان یابی خودکار
-            </a>
+مکان یابی خودکار
+</a>
         </div>
         <a href="#">
             <p>
-                البرز
+البرز
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                تبریز
+تبریز
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                قم
+قم
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                کرمان
+کرمان
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                کرمان
+کرمان
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                قزوین
+قزوین
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                یزد
+یزد
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                ایلام
+ایلام
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                کرمان
+کرمان
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                قزوین
+قزوین
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                یزد
+یزد
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
         <a href="#">
             <p>
-                ایلام
+ایلام
             </p>
             <i class='bx bx-chevron-left'></i>
         </a>
     </div>
 </div>
-<div class="slider">
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="assets/imgs/slide1.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/imgs/slide2.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/imgs/slide3.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/imgs/slide4.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/imgs/sldie5.jpg" alt="">
-        </div>
-    </div>
-</div>
-<div class="container">
-    <section id="category">
-        <div class="category">
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat1.png" alt="">
-                    دیجی کالا جت
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat2.png" alt="">
-                    دیجی استایل
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat3.png" alt="">
-                    دیجی پی
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat4.png" alt="">
-                    دیجی کالا مهر
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat5.png" alt="">
-                    ماموریت ها
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat6.png" alt="">
-                    دیجی پلاس
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat7.png" alt="">
-                    دیجی کلاب
-                </a>
-            </div>
-            <div id="catMore" class="cat-items">
-                <div class="cat-dots">
-                    <div class="one"></div>
-                    <div class="two"></div>
-                    <div class="three"></div>
-                </div>
-                بیشتر
-            </div>
-        </div>
-    </section>
-</div>
-<div class="center1">
-    <div class="category-modal">
-        <div class="modal-head">
-            <a href="#">خدمات دیجی کالا <i class="bx bx-x"></i></a>
-            <div class="hr"></div>
-        </div>
-        <div class="cat-head">
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat5.png" alt="">
-                    ماموریت ها
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat6.png" alt="">
-                    دیجی پلاس
-                </a>
-            </div>
-            <div class="cat-items">
-                <a href="#">
-                    <img src="assets/imgs/cat7.png" alt="">
-                    دیجی کلاب
-                </a>
-            </div>
-        </div>
-        <div class="services">
-            <h2>سرویس های دیجی کالا</h2>
-            <div class="grid2">
-
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat1.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat2.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat3.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat4.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat5.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat6.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-                <div class="cat-items">
-                    <a href="#">
-                        <img src="assets/imgs/cat7.png" alt="">
-                        <div class="desc">
-                            <p>دیجی کالا جت</p>
-                            <p>خرید فوری از سوپرمارکت های اطراف</p>
-                        </div>
-                        <i class='bx bx-left-arrow-alt'></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="hot-suggest">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <div class="card card1">
-                    <div class="img">
-                        <img src="assets/imgs/hottitle.png" alt="">
-                    </div>
-                    <!-- <div class="price">
-                            <p class="off">7%</p>
-                            <p>
-                              1,200,000,000
-                            </p>
-                        </div> -->
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot2.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot3.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot4.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot5.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot6.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot7.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot9.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot10.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot11.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="card-img"><img src="assets/imgs/hot12.jpg">
-                    <div class="price">
-                        <div class="left">تومان 196.000</div>
-                        <div class="right">
-                            <button>40%</button>
-                        </div>
-                    </div>
-                    <div class="off">
-                        <del>6.100.000</del>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="banner">
-        <img src="assets/imgs/supermarketBanner.jpeg" alt="">
-    </div>
-</div>
-<div class="container">
-    <div class="offers">
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/off1.jpg" alt="">
-            </a>
-        </div>
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/off2.jpg" alt="">
-            </a>
-        </div>
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/off3.jpg" alt="">
-            </a>
-        </div>
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/off4.jpg" alt="">
-            </a>
-        </div>
-
-    </div>
-</div>
-<section id="selection">
-    <div class="container">
-        <h1>دسته بندی کالاها</h1>
-        <div class="gird5">
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select1.png" alt="">
-                </a>
-                <div class="desc">
-                    کالای دیجیتال
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select2.png" alt="">
-                </a>
-                <div class="desc">
-                    خودرو ٬ ابزار و تجهیزات صنعتی
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select3.png" alt="">
-                </a>
-                <div class="desc">
-                    مد و پوشاک
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select4.png" alt="">
-                </a>
-                <div class="desc">
-                    اسباب بازی ٬ کودک و نوزاد
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select5.png" alt="">
-                </a>
-                <div class="desc">
-                    کالا های سوپرمارکتی
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select6.png" alt="">
-                </a>
-                <div class="desc">
-                    زیبایی و سلامت
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select6.png" alt="">
-                </a>
-                <div class="desc">
-                    زیبایی و سلامت
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select8.png" alt="">
-                </a>
-                <div class="desc">
-                    کتاب ٬ لوازم تحریر و هنر
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select9.png" alt="">
-                </a>
-                <div class="desc">
-                    ورزش و سفر
-                </div>
-            </div>
-            <div class="items">
-                <a class="" href="#">
-                    <img src="assets/imgs/select10.png" alt="">
-                </a>
-                <div class="desc">
-                    محصولات بومی و محلی
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="container">
-    <div class="banner2">
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/banner1.jpg" alt="">
-            </a>
-        </div>
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/banner2.gif" alt="">
-            </a>
-        </div>
-    </div>
-</div>
-<section id="suggestion">
-    <div class="container">
-        <h1>پیشنهاد های دیجی کالا</h1>
-        <div class="suggest">
-
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sug1.jpg" alt="">
-                                </div>
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <img src="assets/imgs/sug1.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sug2.jpg" alt="">
-                                <div class="desc">
-                                    گوشی موبایل
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="favorite">
-    <div class="container">
-        <div class="fave-brand">
-            <h1>محبوب ترین برند ها</h1>
-            <div class="brandSlide">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="assets/imgs/brand1.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand2.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand3.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand4.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand5.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand6.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand7.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand8.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand9.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand10.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand11.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand12.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand13.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand14.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand15.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand16.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/imgs/brand17.png" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="container mb-4">
-    <div class="banner2">
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/banner3.jpg" alt="">
-            </a>
-        </div>
-        <div class="items">
-            <a href="#">
-                <img src="assets/imgs/banner4.jpg" alt="">
-            </a>
-        </div>
-    </div>
-</div>
-<section id="category2">
-    <div class="container">
-        <div class="grid4">
-            <div class="items">
-                <div class="title">
-                    <h2>گوشی موبایل</h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat4.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        کیف و کاور گوشی
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat7.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        هدفون ٬ هدست و هندزفری
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat8.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat9.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat10.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat11.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        ساعت هوشمند
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat12.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat13.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat14.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/nCat15.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="digi-plus">
-    <div class="container">
-        <div class="digi-plus">
-            <div class="img">
-                <a href="#">
-                    <img src="assets/imgs/digiplus.png" alt="">
-                </a>
-            </div>
-            <div class="box">
-                <div class="header">
-                    <div class="title">
-                        <p><i class='bx bx-rocket'></i> ارسال فوری</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">
-                            مشاهده همه >
-                        </a>
-                    </div>
-                </div>
-                <div class="imgs">
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/digiplus6.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="digi-club">
-    <div class="container">
-        <div class="digi-club">
-            <div class="logo">
-                <a href="#">
-                    <img src="assets/imgs/digiClubLogo.svg" alt="">
-                </a>
-            </div>
-            <div class="box">
-                <div class="items">
-                    <a href="#">
-                        جایزه ها
-                        <img src="assets/imgs/digiclub1.png" alt="">
-                    </a>
-                </div>
-                <div class="items">
-                    <a href="#">
-                        ماموریت ها
-                        <img src="assets/imgs/digiclub2.png" alt="">
-                    </a>
-                </div>
-                <div class="items">
-                    <a href="#">
-                        گردونه شانس
-                        <img src="assets/imgs/digiclub3.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="category3">
-    <div class="container">
-        <div class="grid4">
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        آشنایی با فنون
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat4.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        کفش ورزشی مردانه
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat7.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat8.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        لب تاپ و الترابوک
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat9.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat10.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat11.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat12.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-            <div class="items">
-                <div class="title">
-                    <h2>
-                        ماشین
-                    </h2>
-                    <p>بر اساس بازدید شما</p>
-                </div>
-                <div class="imgs">
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat13.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat14.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat15.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="#">
-                            <img src="assets/imgs/mCat16.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="link">
-                    <a href="#">مشاهده ></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="suggestion2">
-    <div class="container">
-        <div class="suggest">
-            <h1>پیشنهاد های دیجی کالا</h1>
-
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell1.jpg" alt="">
-                                </div>
-                                <h3>1</h3>
-                                <div class="desc">
-                                    پوشک بیبی کینگ سایز5 بسته 28 عددی
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell2.jpg" alt="">
-                                <h3>2</h3>
-                                <div class="desc">
-                                    مایع ظرفشویی پریل مدل lemon حجم 3/75 لیتر
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell3.jpg" alt="">
-                                <h3>3</h3>
-                                <div class="desc">
-                                    هندزفری بلوتوثی مدل inpuds12
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell4.jpg" alt="">
-                                </div>
-                                <h3>4</h3>
-                                <div class="desc">
-                                    گوشی موبایل سامسونگ مدل Galaxy A13 SM-A135F/DS
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell5.jpg" alt="">
-                                <h3>5</h3>
-                                <div class="desc">
-                                    زعفران سحرخیز 4/608 گرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell6.jpg" alt="">
-                                <h3>6</h3>
-                                <div class="desc">
-                                    لامپ ال ای دی 9 وات لیتومکس مدل 001 پایه E27
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell7.jpg" alt="">
-                                </div>
-                                <h3>7</h3>
-                                <div class="desc">
-                                    شامپو پرژک مدل سیر حجم 450 میلی لیتر
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell8.jpg" alt="">
-                                <h3>8</h3>
-                                <div class="desc">
-                                    زعفران درجه یک مصطفی - 4/608 گرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell9.jpg" alt="">
-                                <h3>9</h3>
-                                <div class="desc">
-                                    پوشاک بچه هانیز سایز 4 بسته 48 عددی
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell10.jpg" alt="">
-                                </div>
-                                <h3>10</h3>
-                                <div class="desc">
-                                    کپسول هیرویت هلث اید بسته 30 عددی
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell11.jpg" alt="">
-                                <h3>11</h3>
-                                <div class="desc">
-                                    کنسرو رب گوجه فرنگی رعنا - 800 گرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell12.jpg" alt="">
-                                <h3>12</h3>
-                                <div class="desc">
-                                    روغن مخصوص سرخکردنی بهار -1/5 لیتز
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell13.jpg" alt="">
-                                </div>
-                                <h3>13</h3>
-                                <div class="desc">
-                                    ویفر کاکائو کوپا با طعم شکلات تلخ - 40 گرم بسته 12 عددی
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell14.jpg" alt="">
-                                <h3>14</h3>
-                                <div class="desc">
-                                    برنج تایلندی تنظیم بازار بره نشان - 10 کیلوگرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell15.jpg" alt="">
-                                <h3>15</h3>
-                                <div class="desc">
-                                    قرص جوشان ویتامین c 1000میلی گرمی یوروویتال بسته 20...
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="top">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="assets/imgs/sell16.png" alt="">
-                                </div>
-                                <h3>16</h3>
-                                <div class="desc">
-                                    زعفران درجه یک مصطفی 4گرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mid">
-                            <a href="#">
-                                <img src="assets/imgs/sell17.jpg" alt="">
-                                <h3>17</h3>
-                                <div class="desc">
-                                    قارچ دیکمه ای قارچینو پلاس - 400 گرم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="bot">
-                            <a href="#">
-                                <img src="assets/imgs/sell18.jpg" alt="">
-                                <h3>18</h3>
-                                <div class="desc">
-                                    هدفون بیسیم مدل BTH-F9-5
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="add">
-    <div class="container">
-        <div class="banner">
-            <img src="assets/imgs/add2.jpg" alt="">
-        </div>
-    </div>
-</section>
-<section id="chosen">
-    <div class="container">
-        <div class="chosen">
-            <h1>منتخب محصولات تخفیف و حراج</h1>
-            <div class="gird5">
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen1.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen2.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen3.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen4.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen5.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen5.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen4.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen3.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen2.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen1.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen1.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen2.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen3.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen4.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/chosen5.jpg" alt="">
-                        </div>
-                        <div class="price">
-                            <p>30%</p>
-                            <p>2/666/000 تومان</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="blog">
-    <div class="container">
-        <div class="blog">
-            <div class="header">
-                <p>
-                    خواندنی ها
-                </p>
-                <a href="#">
-                    مطالب بیشتر در دیجی کالا مگ
-                </a>
-            </div>
-            <div class="grid4">
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/blog1.jpg" alt="">
-                        </div>
-                        <div class="desc">
-                            <p>
-                                شیائومی بند 7 پرو و شیائومی بوک پرو هم 3 روز دیگر رونمایی میشود
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/blog2.jpg" alt="">
-                        </div>
-                        <div class="desc">
-                            <p>
-                                شیائومی بند 7 پرو و شیائومی بوک پرو هم 3 روز دیگر رونمایی میشود
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/blog3.jpg" alt="">
-                        </div>
-                        <div class="desc">
-                            <p>
-                                شیائومی بند 7 پرو و شیائومی بوک پرو هم 3 روز دیگر رونمایی میشود
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="#">
-                        <div class="img">
-                            <img src="assets/imgs/blog4.jpg" alt="">
-                        </div>
-                        <div class="desc">
-                            <p>
-                                شیائومی بند 7 پرو و شیائومی بوک پرو هم 3 روز دیگر رونمایی میشود
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="footer1">
-        <div class="part1">
-            <div class="logo">
-                <img src="assets/imgs/digi.svg" alt="">
-            </div>
-            <p>
-                <span>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span> <span>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span>
-            </p>
-        </div>
-        <div class="part2">
-            <a id="GoTop" href="#">
-                بازگشت به بالا
-                <i class='bx bx-chevron-up'></i>
-            </a>
-        </div>
-    </div>
-    <div class="footer2">
-        <div class="grid5">
-            <div class="items">
-                <a href="#">
-                    <img src="assets/imgs/footer0.svg" alt="">
-                    امکان تحویل اکسپرس
-                </a>
-            </div>
-            <div class="items">
-                <a href="#">
-                    <img src="assets/imgs/footer1.svg" alt="">
-                    امکان پرداخت در محل
-                </a>
-            </div>
-            <div class="items">
-                <a href="#">
-                    <img src="assets/imgs/footer2.svg" alt="">
-                    7 روز هفته ٬ 24 ساعته
-                </a>
-            </div>
-            <div class="items">
-                <a href="#">
-                    <img src="assets/imgs/footer3.svg" alt="">
-                    7روز ضمانت برگشت کالا
-                </a>
-            </div>
-            <div class="items">
-                <a href="#">
-                    <img src="assets/imgs/footer4.svg" alt="">
-                    ضمانت اصل بودن کالا
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="footer3">
-        <div class="grid4">
-            <div>
-                <ul>
-                    <li><a href="#">با دیجی کالا</a></li>
-                    <li><a href="#">اتاق خبر دیجی کالا</a></li>
-                    <li><a href="#">فروش در دیجی کالا</a></li>
-                    <li><a href="#">فرصت های شغلی</a></li>
-                    <li><a href="#">تماس با دیجی کالا</a></li>
-                    <li><a href="#">درباره دیجی کالا</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">خدمات مشتریان</a></li>
-                    <li><a href="#">پاسخ به سوالات متداول</a></li>
-                    <li><a href="#">رویه های بازگردانی کالا</a></li>
-                    <li><a href="#">شرایط استفاده</a></li>
-                    <li><a href="#">حریم خصوصی</a></li>
-                    <li><a href="#">گزارش باگ</a></li>
-                </ul>
-            </div>
-            <div class="dnone">
-                <ul>
-                    <li><a href="#">راهنمایی خرید از دیجی کالا</a></li>
-                    <li><a href="#">نحوه ثبت سفارش</a></li>
-                    <li><a href="#">رویه ارسال سفارش</a></li>
-                    <li><a href="#">شیوه های پرداخت</a></li>
-                </ul>
-            </div>
-            <div id="social">
-                <h2>همراه ما باشید!</h2>
-                <div class="social">
-                    <i class='bx bxl-instagram'></i>
-                    <i class='bx bxl-twitter'></i>
-                    <i class='bx bxl-linkedin-square'></i>
-                    <i class='bx bxl-youtube'></i>
-                </div>
-                <h2>با ثبت ایمل از اخرین تخفیف ها با خبر شوید</h2>
-                <form action="">
-                    <input type="email" placeholder="ایمل شما">
-                    <input type="submit" value="ثبت">
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="footer4">
-        <div class="container">
-            <div class="split">
-                <div class="right">
-                    <div class="logo">
-                        <img src="assets/imgs/footerLogo.png" alt="">
-                        <p>دانلود اپلیکیشن</p>
-                    </div>
-                </div>
-                <div class="left">
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/sib-app.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/google-play.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/myket.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/coffe-bazzar.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/More.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hr"></div>
-    <div class="footer5">
-        <div class="container">
-            <div class="split">
-                <div class="right">
-                    <h3>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h3>
-                    <p>
-                        یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت
-                        مناسب را در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛
-                        ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این
-                        طریق مشتریان ثابت خود را داشته باشد.
-                    </p>
-                    <a href="#">مشاهده بیشتر ></a>
-                </div>
-                <div class="left">
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/enamad.png" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/rezi.png" alt="">
-                        </a>
-                    </div>
-                    <div class="items">
-                        <a href="#">
-                            <img src="assets/imgs/kasbokar.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hr"></div>
-    <div class="copyright">
-        <p>
-            برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز
-            برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.
-        </p>
-    </div>
-    <div class="footerLogo">
-        <div class="items"><a href="#"><img src="assets/imgs/logo1.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo2.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo3.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo4.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo5.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo6.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo7.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo8.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo9.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo10.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo11.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo12.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo13.svg" alt=""></a></div>
-        <div class="items"><a href="#"><img src="assets/imgs/logo14.svg" alt=""></a></div>
-    </div>
-</footer>
-<div id="support">
-    <div class="supp">
-        <i class='bx bx-support'></i>
-    </div>
-</div>
-<!--
-
- <div id="supp">
-        <div class="header">
-            <h2>پشتیبانی انلاین</h2>
-            <i class='bx bx-left-arrow-alt'></i>
-        </div>
-        <div class="desc">
-           <h2>
-            سلام👋👋
-           </h2>
-
-           <p>
-            جواب سوال‌هاتون رو می‌تونید در زیر پیدا کنید.
-            در غیر اینصورت از ما بپرسید، ما همیشه به سوالاتتون جواب می‌دیم.😊
-           </p>
-        </div>
-    </div> -->
-
-</body>
-
-</html>

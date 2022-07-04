@@ -31,7 +31,7 @@ $(function () {
     $('#collection').mouseenter(function () {
         $('.subMenu').slideDown()
         $('.blur').css('z-index', '10').show()
-        $('.subMenu').css('top', ($(this).offset().top) + 36 + 'px').slideDown(400)
+        $('.subMenu').css('top', ($(this).offset().top) + 33 + 'px').slideDown(400)
     });
     $('.subMenu').mouseleave(function () {
         $('.subMenu').slideUp();

@@ -1,7 +1,9 @@
 @import '../../node_modules/vazir-font/dist/Farsi-Digits/font-face-FD.css';
 @import '--reset.scss';
 @import '--animation.scss';
-
+*{
+    font-family: Vazir FD , "sans-serif";
+}
 @mixin absolute-center {
     position: absolute;
     display: block;
@@ -900,7 +902,6 @@ header#main {
     }
 
     .items {
-        width: 240px !important;
         padding: 15px;
         // &:first-child{
         //     border-radius: 0 15px 15px 0;
@@ -1047,7 +1048,6 @@ header#main {
                 height: 70px;
                 background-color: #fff;
                 margin: 15px;
-
                 img {
                     width: 167px;
                     height: 60px;
@@ -1153,10 +1153,11 @@ header#main {
         border-radius: 15px;
         overflow: hidden;
         font-size: 14px;
-
+        line-height: 2em;
         .box {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             width: 100%;
             // height: 150px;
             // border-top: 1px solid #969a9b;
@@ -1183,7 +1184,7 @@ header#main {
 
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
                 align-content: center;
                 width: 100%;
@@ -1356,7 +1357,7 @@ header#main {
         .box {
             border-radius: 15px;
             overflow: hidden;
-            height: 250px;
+            height: fit-content;
             background-color: #fff;
             border: 1px solid #e5e5e5;
 
@@ -1689,6 +1690,7 @@ footer {
         width: 100%;
         height: 400px;
         display: flex;
+        flex-direction: row;
         position: relative;
         .main{
             display: flex;
@@ -1744,6 +1746,8 @@ footer {
             }
         }
         .side{
+            position: sticky;
+            top: 105px;
             left: 0;
             height: 100%;
             width: 30%;
@@ -1783,6 +1787,26 @@ footer {
     }
 }
 
+// OWL EDITE
+.owl-theme .owl-nav {
+    /* display: none; */
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+}
+.owl-theme .owl-nav button{
+    background-color: #fff !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #4DC7A0;
+    color: #000;
+    text-decoration: none
+}
 
 
 
@@ -1814,6 +1838,7 @@ footer {
         top: 0;
         // left: 0;
         right: 0;
+
     }
 
     #head-add {
@@ -2069,7 +2094,10 @@ footer {
         .modal-head {
             margin: 10px auto;
             position: sticky;
+            width: 100%;
             top: 10px;
+            right: 0;
+            left: 0;
             background-color: #fff;
 
             p {
@@ -2904,4 +2932,131 @@ footer {
             }
         }
     }
+
+
+
+//    checkout mobile
+
+    #checkout{
+        .container{
+            width: 95vw;
+            margin: 0 auto;
+        }
+        .check-nav{
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                li {
+                    //padding: 15px;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+        .basket{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .main{
+                display: flex;
+                order: 2;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: initial ;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 25px 0;
+                border-radius: 15px;
+                .img{
+                    width: 150px;
+                    height: 150px;
+                    // background-color: #ccc;
+                    img{
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                }
+                .desc{
+                    text-align: center;
+                    h2{
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: #6c6969;
+                        margin-bottom: 25px;
+                    }
+                    .link{
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 14px;
+                        color: #19bfd3;
+                        a{
+                            &:first-child{
+                                position: relative;
+                                &::after{
+                                    content: "";
+                                    position: absolute;
+                                    height: 25px;
+                                    width: 1px;
+                                    top: -5px;
+                                    left: -40px;
+                                    background-color: #19bfd3;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .side{
+                order: 1;
+                position: static;
+                top: 105px;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                margin-bottom: 15px;
+                box-shadow: 0 5px 5px #e5e5e5;
+                border-radius: 15px;
+                .login-into{
+                    border: 1px solid #e5e5e5;
+                    padding: 15px;
+                    border-radius: 15px;
+                    .head{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 15px 0;
+                        p{
+                            display: flex;
+                        }
+                        i{
+                            color: #f9a825;
+                            font-size: 20px;
+                            font-weight: 600;
+                            margin-left: 10px;
+                        }
+                    }
+                    .desc{
+                        p{
+                            font-size: 14px;
+                            color: #6c6969;
+                            line-height: 2em;
+                            width: 80%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }

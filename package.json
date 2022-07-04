@@ -8,12 +8,13 @@
   "scripts": {
     "start": "live-server",
     "index": "sass --watch assets/scss/index.scss assets/css/index.css",
-    "login":  "sass --watch assets/scss/login.scss assets/css/login.css"
+    "login": "sass --watch assets/scss/login.scss assets/css/login.css"
   },
   "dependencies": {
     "boxicons": "^2.1.2",
     "jquery": "^3.6.0",
     "owl.carousel": "^2.3.4",
-    "vazir-font": "^30.1.0"
+    "vazir-font": "^30.1.0",
+    "xzoom": "^1.0.15"
   }
 }

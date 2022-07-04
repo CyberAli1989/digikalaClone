@@ -85,7 +85,7 @@ isarray@0.0.1:
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
   integrity sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==
 
-jquery@>=1.8.3, jquery@^3.6.0:
+jquery@>=1.2.6, jquery@>=1.8.3, jquery@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
   integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
@@ -232,3 +232,10 @@ warning@^4.0.1:
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   dependencies:
     loose-envify "^1.0.0"
+
+xzoom@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/xzoom/-/xzoom-1.0.15.tgz#415c553472f2db76016600baad4b9b6eb3ebafa1"
+  integrity sha512-g95AXPOmVy6mu3kTFMkHKLirdyaIJbUdNN47coMzthNusvlJswnQwYQNl3H5EgxTtBvFETn5byPqYEQs+gng/A==
+  dependencies:
+    jquery ">=1.2.6"
