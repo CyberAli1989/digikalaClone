@@ -15,7 +15,6 @@
     <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="assets/js/mobileNav.js"></script>
     <script src="assets/js/modals.js"></script>
-    <script src="assets/js/desktopnav.js"></script>
     <script src="assets/js/slider.js"></script>
     <title>فروشگاه اینترنتی دیجی کالا</title>
     <link rel="shortcut icon" href="assets/imgs/footerLogo.png" type="image/x-icon">

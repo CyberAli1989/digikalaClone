@@ -269,6 +269,7 @@ header#main #main1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 header#main #main1 .logo {
   width: 100px;
